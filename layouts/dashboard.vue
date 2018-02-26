@@ -30,9 +30,11 @@
           <p>Notifications</p>
         </sidebar-link>
       </side-bar>
-    <notifications>
+    <no-ssr>
+      <notifications>
 
-    </notifications>
+      </notifications>
+    </no-ssr>
     <div class="main-panel">
       <top-navbar></top-navbar>
 

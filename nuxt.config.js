@@ -1,9 +1,11 @@
+const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? '/vue-paper-dashboard-nuxt/' : '/';
 module.exports = {
   /*
   ** Headers of the page
   */
   router: {
-    linkExactActiveClass: 'active'
+    linkExactActiveClass: 'active',
+    base: routerBase
   },
   head: {
     title: 'vue-paper-dashboard-nuxt',
