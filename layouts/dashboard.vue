@@ -1,6 +1,10 @@
 <template>
   <div class="wrapper">
       <side-bar type="sidebar">
+        <sidebar-link to="/job-offering">
+          <i class="ti-face-smile"></i>
+          <p>Job Offering</p>
+        </sidebar-link>
         <sidebar-link to="/">
           <i class="ti-panel"></i>
           <p>Dashboard</p>
